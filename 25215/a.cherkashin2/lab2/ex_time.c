@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdlib.h>
 extern char *tzname[];
-main()
+int main()
 {
     setenv("TZ", "PST8", 1);
     tzset();
