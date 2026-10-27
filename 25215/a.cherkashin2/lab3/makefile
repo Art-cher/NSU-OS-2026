@@ -1,10 +1,8 @@
 CC   = gcc
 BITS = 64
-
 CFLAGS = -std=c99 -Wall -m$(BITS) -D_POSIX_C_SOURCE=200809L
-
-PROG = ex_time
-SRC  = ex_time.c
+PROG = setuid
+SRC  = setuid.c
 
 all: $(PROG)
 
